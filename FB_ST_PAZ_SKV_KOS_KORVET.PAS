@@ -65,7 +65,7 @@ TON1 (.IN, .PT);
 TON1.PT:=T#30s;
 TON1.IN:=ZAPUSKPROM;
 IF TON1.Q THEN
-    ZAPON:=TRUE;      (*СБРОС ОБЩЕГО ЗАПУСКА НЕ ПРОЕБИ*)
+    ZAPON:=TRUE;      (*СБРОС ОБЩЕГО ЗАПУСКА*)
     END_IF;
 
 (*ЗАПУСК ТАЙМЕРА ОБРАТНОГО ОТЧЕТА ВРЕМЕНИ ЗАПУСКА НО*)
@@ -244,7 +244,7 @@ IF TON2.Q AND NOT SHZ_XONX AND PAZ THEN (*АВАРИЙНЫЙ*)
     ABDI_CEXX:=TRUE;
     END_IF;
 
-(*ВЕТКА НО, ВО, АО СБРОСИТЬ ПЕРМЕННЫЕ!!!!!!!!!!!!*)
+(*ВЕТКА НО, ВО, АО СБРОСИТЬ ПЕРМЕННЫЕ!*)
 
 IF OSTANOV AND SHZ_XOFX THEN
     SHZ_CAOF:=FALSE;
