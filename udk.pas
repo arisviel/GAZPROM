@@ -1,5 +1,5 @@
 FUNCTION_BLOCK FB_ST_UDK_2
-(*ХОЛДИНГ РЕГИСТР ВХОДНЫХ КАНАЛОВ ДЛЯ ПАНЕЛЕЙ ЕБАНЫХ*)
+(*ХОЛДИНГ РЕГИСТР ВХОДНЫХ КАНАЛОВ ДЛЯ ПАНЕЛЕЙ*)
 
 (*проверка отсутствия предельных положений по КГС*)
 IF QKGSXHWX<QKGSXVXX OR QKGSXLWX>QKGSXVXX OR PKGSXHWX<PKGSXVXX OR PKGSXLWX>PKGSXVXX OR PAZ OR QKGSIFXX OR PKGSIFXX THEN
